@@ -1,0 +1,13 @@
+.DS_Store
+*.swp
+*.swo
+
+# Go
+*.test
+*.out
+bin/
+dist/
+
+# IDEs
+.idea/
+.vscode/
