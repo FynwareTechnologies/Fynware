@@ -63,8 +63,11 @@ The current foundation includes:
 * Storage foundation
 * Virtual device foundation
 * Network foundation
+* Display and GPU foundation
 * ACPI foundation
 * Platform and hardware foundation
+* Firmware metadata and lifecycle foundation
+* SPI flash storage with bounded read/write access
 * Automated tests
 
 The virtual CPU is currently a development framework rather than a complete x86-64 emulator. Instruction execution will be expanded as the VM develops.
@@ -98,14 +101,14 @@ As additional subsystems are implemented, the test suite will expand to cover th
 * [x] Storage foundation
 * [x] Virtual device foundation
 * [x] Network foundation
-* [ ] Display/GPU model
+* [x] Display/GPU foundation
 * [x] ACPI foundation
 * [ ] Complete ACPI tables
 * [ ] TPM model
-* [ ] SPI flash
+* [x] SPI flash foundation
 * [x] Platform/motherboard foundation
 * [ ] Complete platform/motherboard model
-* [ ] Firmware loading
+* [x] Firmware loading foundation
 * [ ] Firmware execution
 * [ ] VM debugging and tracing
 
